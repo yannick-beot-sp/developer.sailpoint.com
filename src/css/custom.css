@@ -281,6 +281,7 @@
   --ifm-color-primary-lighter: #aee1f4;
   --ifm-color-primary-lightest: #bee7f6;
   --ifm-link-color: #7ecfee;
+  --ifm-background-color: black !important;
 
   --ifm-color-secondary: #cc27b0;
 

@@ -35,6 +35,7 @@
     "docusaurus-plugin-openapi-docs": "^2.0.2",
     "docusaurus-theme-openapi-docs": "^2.0.2",
     "docusaurus2-dotenv": "^1.4.0",
+    "embla-carousel-autoplay": "^8.0.0-rc23",
     "embla-carousel-react": "^8.0.0-rc23",
     "lucide-react": "^0.334.0",
     "postcss": "^8.4.35",

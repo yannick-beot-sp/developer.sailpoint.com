@@ -1,16 +1,5 @@
+const tailwindPlugin = require('./tailwind/tailwind-config.js');
 module.exports = [
-  async function myPlugin(context, options) {
-    return {
-      name: "docusaurus-tailwindcss",
-      configurePostCss(postcssOptions) {
-        // Appends TailwindCSS and AutoPrefixer.
-        postcssOptions.plugins.push(require("postcss-import"));
-        postcssOptions.plugins.push(require("tailwindcss"));
-        postcssOptions.plugins.push(require("autoprefixer"));
-        return postcssOptions;
-      },
-    };
-  },
   [
     'docusaurus2-dotenv',
     {
@@ -151,4 +140,5 @@ module.exports = [
       },
     },
   ],
+  tailwindPlugin,
 ];

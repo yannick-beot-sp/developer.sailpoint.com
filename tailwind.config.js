@@ -23,6 +23,11 @@ module.exports = {
         lg: "997px",
       },
       colors: {},
+      extend: {
+        padding: {
+          '5px': '10px',
+        }
+      }
     },
   },
   plugins: [],
